@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Noto Sans JP', sans-serif, Helvetica, sans-serif;
+}
+
+/*Cabecalho*/
+
+h1 {
+    font-size: 50px;
+}
+
+h2.tituloSecundario {
+    text-align: center;
+    padding: 18px 0 18px 0;
+}
+
+#tituloPrincipal {
+    margin: 70px 0 20px 20px;
+}
+
+#menu-fixo {
+    background-color: rgb(88, 86, 86);
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.logoCabecalho {
+    width: 150px;
+    padding: 8px;
+}
+
+#textoExplicativo {
+    font-size: 16px;
+    padding: 12px;
+}
+
+/*Menu Cabecalho*/
+/*
+.menu {
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+    background-color: #DCDCDC;
+    list-style: none;
+}
+*/
+
+.items-menu {
+    right: 20%;
+    float: right;
+    padding: 18px 12px 18px 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.items-menu:hover {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+/*Imagens*/
+.fotos {
+    width: 500px;
+    height: 380px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+/*Tabelas*/
+td.tabelaInterna {
+    padding: 10px;
+}
+
+td.tabelaInterna p {
+    text-indent: 16px;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+th {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+}
+
+tr.celulaFormatada td{
+    width: 90px;
+    height: 60px;
+    text-align: center;
+}
+
+/*Formulario*/
+
+fieldset {
+    padding: 10px;
+    width: 300px;
+}
+
+.pessoas {
+    width: 30px;
+}
+
+.data{
+    width: 150px;
+}
+
+.desconto{
+    width: 80px;
+}
+
+/*Rodape*/
+#tabelaRodape {
+    width: 100%;
+}
+
+.logoRodape {
+    float: left;
+    width: 200px;  
+    padding: 12px;
+}
+
+td.direitos p {
+    text-align: center;
+    margin-right: 125px;
+}
+
+table td.icones {
+    float: right;
+    margin-right: 10px;
+    padding-top: 12px;
+}
+
+.icone {
+    width: 40px;
+    height: 40px;
+}
+
+
