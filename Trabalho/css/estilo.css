@@ -9,7 +9,6 @@ body {
 }
 
 /*Cabecalho*/
-
 h1 {
     font-size: 50px;
 }
@@ -39,7 +38,7 @@ h2.tituloSecundario {
 }
 
 #textoExplicativo {
-    font-size: 16px;
+    font-size: 18px;
     padding: 12px;
 }
 
