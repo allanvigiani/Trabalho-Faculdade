@@ -1,0 +1,1 @@
+Usar JS para "mandar" email e monstrar que a partir de agora notificações serão enviadas por email.

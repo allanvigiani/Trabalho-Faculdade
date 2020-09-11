@@ -4,22 +4,19 @@
 }
 
 body {
-    background-color: #f5f5f5;
     font-family: 'Noto Sans JP', sans-serif, Helvetica;
 }
 
 /*Cabecalho*/
 h1 {
-    font-size: 50px;
+    font-size: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-h2.tituloSecundario {
-    text-align: center;
-    padding: 18px 0 18px 0;
-}
-
-#tituloPrincipal {
-    margin: 70px 0 20px 20px;
+#areaTopo {
+    background-image: url("imgTrab/areaTopo.png");
+    margin-top: 60px;
+    height: 200px;
 }
 
 #menu-fixo {
@@ -53,26 +50,52 @@ h2.tituloSecundario {
 }
 
 .items-menu:hover {
-    color: #000;
-    background-color: #f5f5f5;
+    color:#000;
+    background-color:#FFFFFF;
 }
 
-/*Imagens*/
-.fotos {
-    width: 500px;
-    height: 380px;
-    margin: 10px;
+/*Pontos Turísticos Destaques*/
+#pontosTuristicosDestaque {
+    background-color: rgb(255, 166, 0);
+    display: inline-block;
+    width: 100%;
+}
+
+.tituloDestaque {
+    color:#000;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 18px 0 18px 0;
+}
+
+div#divAlbum {
+    margin-left: 160px;
+    padding: 20px;
+}
+
+div#divTexto {
+    color: #FFFFFF;
+    float: left;
+    width: 300px;
+    margin-left: 180px;
+    margin-top: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 /*Álbum*/
 ul#album {
-    background-color: rgba(241, 240, 240, 0.801);
+    background-color: rgb(241, 240, 240);
     width: 660px;
     list-style: none;
     display: flex;
-    margin: 20px 25%;
+    margin: 20px 37%;
     box-shadow: 2px 2px 2px 2px rgba(10,10,10,0.3);
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .min {
@@ -136,7 +159,7 @@ ul#album {
     background-color: #fff;
     opacity: 0.8;
     margin-top: -23px;
-    width: 410px;
+    width: 400px;
     border-radius: 0 2px 0 0;
 }
 
@@ -145,7 +168,7 @@ ul#album {
     background-color: #fff;
     opacity: 0.8;
     margin-top: -23px;
-    width: 410px;
+    width: 170px;
     border-radius: 0 2px 0 0;
 }
 
@@ -154,7 +177,7 @@ ul#album {
     background-color: #fff;
     opacity: 0.8;
     margin-top: -23px;
-    width: 230px;
+    width: 220px;
     border-radius: 0 2px 0 0;
 }
 
@@ -163,31 +186,53 @@ ul#album {
 .legendaFoto3 p.paragrafoLegenda {
     font-size: 12px;
     color: black;
-    
+    margin-left: 5px;
 }
 
-/*Tabelas*/
-td.tabelaInterna {
-    padding: 10px;
+/*Maricá Rotativo*/
+#maricaRotativo {
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 100%;
 }
 
-td.tabelaInterna p {
-    text-align: justify;
-    text-indent: 16px;
-    font-size: 16px;
-    line-height: 150%;
-}
-
-th {
+.tituloRotativo {
+    color: rgb(255, 166, 0);
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    width: 100px;
-    height: 40px;
+    padding: 18px 0 18px 0;
 }
 
-tr.celulaFormatada td{
-    width: 90px;
-    height: 60px;
-    text-align: center;
+.fotoAppRotativo {
+    width: 243px;
+    height: 445px;
+    margin: 10px;
+}
+
+div#divApp {
+    float: left;
+    width: 260px;
+    margin-left: 280px;
+}
+
+div#divTextoApp {
+    float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    margin-right: 50px;
+    width: 600px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.icones-loja-play {
+    margin-left: 25px;
+}
+
+.icones-loja-apple {
+    margin-left: 5px;
 }
 
 /*RODAPE*/
