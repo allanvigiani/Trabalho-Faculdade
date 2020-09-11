@@ -64,7 +64,7 @@ h2.tituloSecundario {
     margin: 10px;
 }
 
-/*Álbum teste*/
+/*Álbum*/
 ul#album {
     background-color: rgba(241, 240, 240, 0.801);
     width: 660px;
@@ -131,6 +131,41 @@ ul#album {
     right: 2px;
 }
 
+.legendaFoto1 {
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.8;
+    margin-top: -23px;
+    width: 410px;
+    border-radius: 0 2px 0 0;
+}
+
+.legendaFoto2 {
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.8;
+    margin-top: -23px;
+    width: 410px;
+    border-radius: 0 2px 0 0;
+}
+
+.legendaFoto3 {
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.8;
+    margin-top: -23px;
+    width: 230px;
+    border-radius: 0 2px 0 0;
+}
+
+.legendaFoto1 p.paragrafoLegenda,
+.legendaFoto2 p.paragrafoLegenda,
+.legendaFoto3 p.paragrafoLegenda {
+    font-size: 12px;
+    color: black;
+    
+}
+
 /*Tabelas*/
 td.tabelaInterna {
     padding: 10px;
@@ -155,25 +190,6 @@ tr.celulaFormatada td{
     text-align: center;
 }
 
-/*Formulario*/
-/*
-fieldset {
-    padding: 10px;
-    width: 300px;
-}
-
-.pessoas {
-    width: 30px;
-}
-
-.data{
-    width: 150px;
-}
-
-.desconto{
-    width: 80px;
-}
-*/
 /*RODAPE*/
 #rodape {
     background-color: rgb(0, 0, 0);
@@ -185,13 +201,13 @@ fieldset {
     border-radius: 3px 3px 0 0;
 }
 
+#logo-rodape {
+    float: left;
+}
+
 #logo-rodape img {
     width: 200px;
     margin: 14px 0 30px 15px;
-}
-
-#logo-rodape {
-    float: left;
 }
 
 #emailRodape {
