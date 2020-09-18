@@ -8,9 +8,12 @@ body {
 }
 
 /*Cabecalho*/
-#areaTopo {
+#areaTopo img {
     margin-top: 60px;
+    width: 100%;
+    margin-bottom: -10px;
 }
+
 
 .logoCabecalho {
     width: 150px;

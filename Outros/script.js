@@ -66,11 +66,6 @@ document.write(texto + texto2 + texto3);
 */
 
 /*
-for (i = 0; i <= 12; i++) {
-    document.write(i + '<br>')
-}
-*/
-
 var nome = prompt("Digite seu nome: ");
 var matricula = prompt("Digite suas matrícula: ");
 var curso = prompt("Digite seu curso: ");
@@ -78,3 +73,50 @@ var curso = prompt("Digite seu curso: ");
 document.write("Nome: " + nome + "<br>");
 document.write("Matrícula: " + matricula + "<br>");
 document.write("Curso: " + curso + "<br>");
+*/
+
+/*
+for (i = 0; i <= 12; i++) {
+    document.write(i + '<br>')
+}
+*/
+
+/*
+var x = 0;
+
+while (x <= 10) {
+    x++;
+
+    if (x == 5){ //Reseta o while quando esse bloco é lido
+        continue;
+    }
+
+    document.write(x + '<br>');
+}
+*/
+/*
+var x = 1;
+
+do {
+    document.write(x + '<br>');
+    x++;
+}
+
+while (x <= 10);
+*/
+/*
+var largura = prompt("Digite a largura do terreno");
+var comprimento = prompt("Digite a comprimento do terreno");
+
+function calcularTerreno(largura, comprimento) {
+
+    largura = parseFloat(largura);
+    comprimento = parseFloat(comprimento);
+
+    var area = largura * comprimento;
+
+    document.write(area)
+}
+
+calcularTerreno(largura, comprimento);
+*/
