@@ -4,6 +4,7 @@
 }
 
 body {
+    width: 100%;
     font-family: 'Noto Sans JP', sans-serif, Helvetica;
 }
 
@@ -59,7 +60,6 @@ body {
 }
 
 div#divAlbum {
-    margin-left: 160px;
     padding: 20px;
 }
 
@@ -83,7 +83,7 @@ ul#album {
     width: 660px;
     list-style: none;
     display: flex;
-    margin: 20px 37%;
+    margin: 20px 40%;
     box-shadow: 2px 2px 2px 2px rgba(10,10,10,0.3);
     border-radius: 2px;
 }
