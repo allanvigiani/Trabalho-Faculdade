@@ -1,0 +1,403 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Noto Sans JP', sans-serif, Helvetica;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*Cabecalho*/
+#areaTopo img {
+	width: 100%;
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
+
+
+.logoCabecalho {
+    width: 150px;
+    padding: 8px;
+}
+
+/*Menu Cabecalho*/
+#menu-fixo {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.items-menu {
+    right: 20%;
+    float: right;
+    padding: 18px 12px 18px 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.items-menu:hover {
+    color:#000;
+    background-color:#FFFFFF;
+}
+
+#area{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: rgb(255, 166, 0);
+    padding: 18px;
+    text-align: center;
+}
+
+/*FORMULARIO*/
+
+#formulario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#fieldsetPrincipal {
+    border: none;
+}
+
+#topoForm {
+    width: 100%;
+    height: 40px;
+    font-family: 'Noto Sans JP', sans-serif, Helvetica;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(255, 166, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#dadosCliente {
+    background-color:  #e4e6e6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#dadosCliente p {
+    margin: 10px 0 10px 50px;
+}
+
+#dadosBasicos {
+    width: 100%;
+    margin-left: 50px;
+}
+
+#dadosBasicos img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -8px;
+}
+
+.nomeCompleto {
+    background-color:  #FFFFFF;
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 14%;
+    border-radius: 5px;
+    text-indent: 5px;
+    margin-top: -10px;
+}
+
+.nomeCompleto:focus {
+    outline-style: none;
+}
+
+.email {
+    background-color:  #FFFFFF;
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.email:focus {
+    outline-style: none;
+}
+
+.data {
+    background-color:  #FFFFFF;
+    border: none;
+    width: 150px;
+    height: 30px;
+    text-indent: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.data:focus {
+    outline-style: none;
+}
+
+span.cpfTotal {
+    margin-left: 60px;
+}
+
+.cpf {
+    background-color:  #FFFFFF;
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.cpf:focus {
+    outline-style: none;
+}
+
+span.telefoneTotal {
+    margin-left: 60px;
+}
+
+.telefone {
+    background-color:  #FFFFFF;
+    border: none;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-indent: 5px;
+}
+
+.telefone:focus {
+    outline-style: none;
+}
+
+#dadosExtras {
+    width: 100%;
+    margin-left: 50px;
+}
+
+#dadosExtras img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -8px;
+}
+
+.nPessoas {
+    background-color:  #FFFFFF;
+    border: none;
+    width: 140px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.nPessoas:focus {
+    outline-style: none;
+}
+
+.reservaTotal {
+    margin-left: 40px;
+}
+
+.diaReserva {
+    background-color:  #FFFFFF;
+    border: none;
+    width: 140px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.diaReserva:focus {
+    outline-style: none;
+}
+
+span.passeioTodo {
+    margin-left: 30px;
+}
+
+#localPasseio {
+    background-color:  #FFFFFF;
+    border: none;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.fotoUnica {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -8px;
+}
+
+#pcd {
+    margin-left: 50px;
+}
+
+#nao {
+    margin-left: 5px;
+}
+
+span.pessoasPcdTotal {
+    margin-left: 34%;
+    
+}
+
+#pessoasPcd {
+    background-color:  #FFFFFF;
+    border: none;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+/*BOTAO RESERVA*/
+
+#botaoReserva {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 166, 0);
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botaoReserva:hover {
+    background-color: rgb(255, 176, 0);
+    color: #FFFFFF;
+    transition: 500ms;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+/*RODAPE*/
+#rodape {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    width: 90%;
+    height:160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px 3px 0 0;
+}
+
+#logo-rodape {
+    float: left;
+}
+
+#logo-rodape img {
+    width: 200px;
+    margin: 14px 0 30px 15px;
+}
+
+#emailRodape {
+    margin-left: 0;
+    width: 180px;
+    height: 28px;
+    border: none;
+}
+
+#noticias {
+    margin-left: 15px;
+}
+
+#noticias label {
+    color: #fff;
+}
+
+#noticias button {
+    color: #fff;
+    background-color: rgb(185, 121, 121);
+    border: none;
+    margin-left: -4px;
+    width: 80px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#noticias button:hover {
+    background-color: rgb(177, 87, 87);
+}
+
+#direitos-reservados {
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 17%;
+    color: white;
+}
+
+#redes-sociais {
+    float: right;
+    margin-top: 15px;
+    color: white;
+}
+
+ul#lista-sociais {
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    font-size: 10px;
+    height: 100%;
+    list-style: none;
+    margin-right: 15px;
+}
+
+ul#lista-sociais p{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+
+.iconeFace {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.iconeInsta, .iconePref {
+    margin-left: 5px;
+    width: 22px;
+    height: 22px;
+}
+
+.faceItem, .instaItem, .prefItem {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+    margin-bottom: 10px;
+}
+.faceItem span, .instaItem span, .prefItem span {
+    font-size: 11px;
+    margin-left: 4px;
+    padding-top: 20px;
+}
+
