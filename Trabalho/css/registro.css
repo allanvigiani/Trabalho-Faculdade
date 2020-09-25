@@ -270,6 +270,10 @@ span.pessoasPcdTotal {
     text-indent: 5px;
 }
 
+#pessoasPcd:focus {
+    outline-style: none;
+}
+
 /*BOTAO RESERVA*/
 
 #botaoReserva {

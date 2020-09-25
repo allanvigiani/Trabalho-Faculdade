@@ -55,6 +55,64 @@ body {
     text-align: center;
 }
 
+.projeto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 6%;
+    display: inline-block;
+}
+
+.projeto h2 {
+    background-color: rgb(255, 166, 0);
+    width: 320px;
+    height: 30px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.projeto p{
+    margin-top: 10px;
+    width: 320px;
+    height: 160px;
+    padding: 10px;
+    background-color:#e4e6e6;
+    text-align: justify;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-indent: 5px;
+}
+
+.projeto2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 6%;
+    display: inline-block;
+}
+
+.projeto2 h2 {
+    background-color: rgb(255, 166, 0);
+    width: 320px;
+    height: 30px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.projeto2 p{
+    margin-top: 10px;
+    width: 320px;
+    height: 160px;
+    padding: 10px;
+    background-color:#e4e6e6;
+    text-align: justify;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-indent: 5px;
+}
+
 /*RODAPE*/
 #rodape {
     background-color: rgb(0, 0, 0);
