@@ -15,9 +15,9 @@ body {
     margin-bottom: -10px;
 }
 
-
 .logoCabecalho {
-    width: 150px;
+    width: 100px;
+    height: 40px;
     padding: 8px;
 }
 
@@ -130,6 +130,7 @@ body {
 
 #logo-rodape img {
     width: 200px;
+    height: 54px;
     margin: 14px 0 30px 15px;
 }
 

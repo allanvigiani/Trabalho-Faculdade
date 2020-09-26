@@ -19,8 +19,7 @@
 
 		<div id="menu-fixo">
 
-			<a href="https://www.universidadedevassouras.edu.br/campusmarica" target="_blank"><img
-					src="imgTrab/logo.png" class="logoCabecalho"></a>
+			<img src="imgTrab/logo-cortado.png" class="logoCabecalho">
 
 			<a href="sobre.html" class="items-menu">Sobre nós</a>
 			<a href="reserva.html" class="items-menu">Reservas </a>
@@ -58,33 +57,36 @@
 					<div id="dadosBasicos">
 						<p>
 							<img src="imgTrab/do-utilizador.svg"><input type="text" class="nomeCompleto"
-								placeholder="Nome completo" required>
+								placeholder="Nome completo" required="required">
 							<img src="imgTrab/o-email.svg"><input type="email" class="email" placeholder="E-mail"
-								required>
+								required="required">
 						</p>
 						<p>
 							<img src="imgTrab/calendario.svg"><input type="text" name="data" class="data"
-								placeholder="Data de nascimento" required>
+								placeholder="Data de nascimento" required="required">
 							<span class="cpfTotal"><img src="imgTrab/carteira-de-motorista.svg"><input type="number"
-									name="cpf" class="cpf" placeholder="CPF" required></span>
+									name="cpf" class="cpf" placeholder="CPF" required="required"></span>
 							<span class="telefoneTotal"><img src="imgTrab/smartphone.svg"><input type="number"
-									name="telefone" class="telefone" placeholder="Número para contato"></span>
+									name="telefone" class="telefone" placeholder="Número para contato" required="required"></span>
 						</p>
 					</div>
 
-					<p>Dados da reserva: </p>
+					<div class="linhaLateral2">
+						<p class="exclusivo2">Dados da reserva: </p>
+					</div>
+					
 
 					<div id="dadosExtras">
 
 						<p>
 							<img src="imgTrab/trabalho-em-equipe.svg"><input type="number" name="nPessoas"
-								class="nPessoas" placeholder="Número de pessoas" required>
+								class="nPessoas" placeholder="Número de pessoas" required="required">
 							<span class="reservaTotal"><img src="imgTrab/espreguicadeira.svg"><input type="text"
 									name="diaReserva" class="diaReserva" placeholder="Data da sua reserva"
-									required></span>
+									required="required"></span>
 							<span class="passeioTodo"><img src="imgTrab/viajante.svg">
 								<label for="">
-									<select name="localPasseio" id="localPasseio" required>
+									<select name="localPasseio" id="localPasseio" required="required">
 										<option value="">--Escolha um local--</option>
 										<option value="1">Paróquia Nossa Senhora do Âmparo</option>
 										<option value="2">Pico da Lagoinha</option>
@@ -95,19 +97,22 @@
 
 					</div>
 
-					<p>Terá algum/alguma PcD? <img src="imgTrab/cadeira-de-rodas.svg" class="fotoUnica"><p>
-
+					<div class="linhaLateral">
+						<p class="exclusivo">Terá algum/alguma PcD? <!--<img src="imgTrab/cadeira-de-rodas.svg" class="fotoUnica">--><p>
+					</div>
+					
 					<div id="pcd">
 
 						<p>
-							<input type="radio" id="sim" name="opcoes" value="sim">
+							<input type="radio" id="sim" name="opcoes" value="sim" required="required">
 							<label for="male">Sim</label>
-							<input type="radio" id="nao" name="opcoes" value="nao">
+							<input type="radio" id="nao" name="opcoes" value="nao" required="required">
 							<label for="female">Não</label>
 
 							<span class="pessoasPcdTotal"><img src="imgTrab/pessoas-com-deficiencia.svg" class="fotoUnica"><input type="text" name="pessoasPcd" id="pessoasPcd" placeholder="Se sim, quantas pessoas?"></span>
 
 						</p>
+
 						<p>
 							<input type="button" value="Reservar" id="botaoReserva" onclick="reservarPasseio()"><div id="recebeTexto"></div>
 						</p>
@@ -128,8 +133,7 @@
 	<div id="rodape">
 
 		<div id="logo-rodape">
-			<a href="https://www.universidadedevassouras.edu.br/campusmarica" target="_blank"><img
-					src="imgTrab/logo.png"></a>
+			<img src="imgTrab/texto-solo.png">
 
 			<div id="noticias">
 				<label id="textoMutavel">Receba as últimas notícias</label> <br>
