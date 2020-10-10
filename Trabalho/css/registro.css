@@ -435,3 +435,15 @@ ul#lista-sociais p{
 .linhaLateral2 .exclusivo2:after {
     margin-left: 10px;
 }
+
+.linhaLateral3 .exclusivo3:after {
+    content: ' ';
+    position: absolute;
+    width: 44%;
+    border-top: 1px solid black;
+    margin-top: 1%;
+}
+
+.linhaLateral3 .exclusivo3:after {
+    margin-left: 10px;
+}
